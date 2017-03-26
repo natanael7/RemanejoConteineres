@@ -3,7 +3,7 @@ Algoritmo Genético aplicado ao problema de carregamento de navios-contêineres.
 
 ---
 
-### Resumo 2014
+### Resumo 2014/1
 
 O trabalho de pesquisa desenvolvido tem como objetivo a implementação e avaliação do método Algoritmo Genético (AG) quando empregado na solução de um problema de otimização combinatória. A implementação do AG foi realizada através do uso de duas diferentes linguagens de programação e a sua avaliação foi feita em diferentes sistemas operacionais. 
 
@@ -15,7 +15,7 @@ Os experimentos computacionais mostraram que a implementação em ANSI C exigiu 
 
 ---
 
-### 2015
+### Resumo 2014/2
 
 Partindo do estudo feito no período de pesquisa anterior, no qual foi implementado o código computacional do AG em linguagem ANSI C, iniciou-se o aprimoramento lógico do programa para maior eficácia na obtenção dos resultados. O primeiro aprimoramento foi a modificação de duas regras de descarga, sendo proposta a unificação dos contêineres remanejados com aqueles que a serem carregados, garantindo assim uma melhor ordenação dos contêineres de remanejamento. Os resultados obtidos mostraram uma melhora média de 18% nos resultados.
 
@@ -24,4 +24,21 @@ Seguindo o curso da pesquisa, foram também desenvolvidas duas novas regras de c
 Por fim, a pesquisa para o aprimoramento do programa computacional mostrou um grande ganho na aproximação ao resultado ótimo desejado, tendo sido avaliadas a seguintes especificações para o número de portos: 10, 15, 20, 25, 30. Os melhores resultados obtidos com a implementação do AG utilizando 18 combinações de regras foram, respectivamente: 1340, 1621, 2070, 1706, 2378; onde os respectivos resultados ótimos conhecidos são: 1322, 1580, 1990, 1664, 2262, para uma matriz de transporte do tipo 1.
 
 Assim, conclui-se que a implementação do AG com mais regras de carregamento e descarregamento possibilita a obtenção de soluções de melhor qualidade, sendo mais próximas às soluções ótimas conhecidas.
+
+---
+
+### Programação
+
+Linguagem: C
+IDE: Dev C++
+Source: dentro das pastas AG_***/
+
+---
+
+##Sobre
+
+O projeto foi desenvolvido entre 10/2012 e 12/2014 na Universidade UNISINOS - São Leopoldo, RS. Através de uma bolsa de pesquisa CNPq - Modalidade Ensino Médio.
+
+*Autor: Natanael Josué Rabello*  
+*Orientador: Leonardo Dagnino Chiwiacowsky*
 
