@@ -29,13 +29,13 @@ Assim, conclui-se que a implementação do AG com mais regras de carregamento e 
 
 ### Programação
 
-Linguagem: C
-IDE: Dev C++
-Source: dentro das pastas AG_***/
+Linguagem: C  
+IDE: Dev C++  
+Source: dentro das pastas AG_***/  
 
 ---
 
-##Sobre
+## Sobre
 
 O projeto foi desenvolvido entre 10/2012 e 12/2014 na Universidade UNISINOS - São Leopoldo, RS. Através de uma bolsa de pesquisa CNPq - Modalidade Ensino Médio.
 
