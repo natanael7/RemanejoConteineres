@@ -1,0 +1,83 @@
+// ARQUIVO DE RESULTADOS 
+// ShipManager 1.0 - Alocação de Containeres em Navios 
+
+// Diretorio do arquivo com os dados:  
+//  C:\Anibal\ProjetoNavio\ProjetoNavio\ProjetoNavio\Instances07-Aug-2009-142454\ 
+
+// Arquivo de entrada:  
+// Date 
+[DA] 
+14-Aug-2009 
+// Hour 
+[HO] 
+15:11:24 
+// Number of Rows: 6, 8, 10 
+[NR] 
+06 
+// Number of Columns: 50 to 170 
+[NC] 
+130 
+// Number of Ports: 10:5:30 
+[NP] 
+20 
+// Matrix type: 1 - Mixed, 2 - Long Distance, 3 - Short Distance 
+[DT] 
+2 
+// Demand Matriz Information 
+[DI] 
+     0      0      6      9     14      4     17     34     15      9      0      0      0      2    316      0      0      0      0      0 
+     0      0      3      5      7     25     10     52      0     19      0      0      0      0     38      0      0      0      0      0 
+     0      0      0      0      1     17     14     46      0      0      0      6      0      2      0      0      0      0      1      0 
+     0      0      0      0      3      4      7      6      0      0      0      6      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      2     19      0      0      0      0      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      2      6      0      1      9      0      5      0      0     75      0      0      0      0 
+     0      0      0      0      0      0      0      1      3      0      1      1      0      0      0      0      0     47      0      0 
+     0      0      0      0      0      0      0      0      0      1      1      6      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      0      0      0      2      6      4      0      0      0      0      0      0     10    194 
+     0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      0      0      0      0      0      3      2      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0     62      0      0 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0     25 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      4      8 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      3      2      9     17 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      3      7 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      3 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0 
+     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0 
+ 
+// Method used to solve the container ship problem. 
+[MN] 
+ GA 
+ 
+// Computacional time spent in seconds. 
+[CT] 
+ 198.636000  
+ 
+// Solution objetive value. 
+[SO] 
+ 2690.000000  
+ 
+// Vector of rules: indicates which rule should be used for each port. 
+// Also remember that the in last port there is only one type of container. 
+// So, any rule will produce the same number of moviments. 
+[RV] 
+ 3  
+ 3  
+ 1  
+ 3  
+ 3  
+ 3  
+ 3  
+ 4  
+ 4  
+ 3  
+ 1  
+ 3  
+ 3  
+ 1  
+ 1  
+ 2  
+ 2  
+ 2  
+ 4  

@@ -1,0 +1,25 @@
+// Date 
+[DA] 
+17-Jul-2014 
+// Hour 
+[HO] 
+16:17:16 
+// Number of Rows: 6, 8, 10 
+[NR] 
+10 
+// Number of Columns: 50 to 170 
+[NC] 
+104 
+// Number of Ports: 10:5:30 
+[NP] 
+ 5 
+// Matrix type: 1 - Mixed, 2 - Long Distance, 3 - Short Distance 
+[DT] 
+2 
+// Demand Matriz Information 
+[DI] 
+     0      1      0    130    694 
+     0      0      0      6    209 
+     0      0      0      1      0 
+     0      0      0      0      0 
+     0      0      0      0      0 

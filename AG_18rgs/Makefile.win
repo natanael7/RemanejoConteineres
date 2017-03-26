@@ -1,0 +1,94 @@
+# Project: AG
+# Makefile created by Dev-C++ 5.6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = selectPais.o avaliaPop.o bestFitnessEver.o crossPais.o fre1.o fre2.o frs1.o frs2.o geraPopIni.o getD.o getData.o main.o maxNum.o mutateFilhos.o orderPop.o printMat.o printVet.o saveResults.o fre3.o fre4.o frs3.o fre5.o fre6.o
+LINKOBJ  = selectPais.o avaliaPop.o bestFitnessEver.o crossPais.o fre1.o fre2.o frs1.o frs2.o geraPopIni.o getD.o getData.o main.o maxNum.o mutateFilhos.o orderPop.o printMat.o printVet.o saveResults.o fre3.o fre4.o frs3.o fre5.o fre6.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = AG.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+selectPais.o: selectPais.c
+	$(CC) -c selectPais.c -o selectPais.o $(CFLAGS)
+
+avaliaPop.o: avaliaPop.c
+	$(CC) -c avaliaPop.c -o avaliaPop.o $(CFLAGS)
+
+bestFitnessEver.o: bestFitnessEver.c
+	$(CC) -c bestFitnessEver.c -o bestFitnessEver.o $(CFLAGS)
+
+crossPais.o: crossPais.c
+	$(CC) -c crossPais.c -o crossPais.o $(CFLAGS)
+
+fre1.o: fre1.c
+	$(CC) -c fre1.c -o fre1.o $(CFLAGS)
+
+fre2.o: fre2.c
+	$(CC) -c fre2.c -o fre2.o $(CFLAGS)
+
+frs1.o: frs1.c
+	$(CC) -c frs1.c -o frs1.o $(CFLAGS)
+
+frs2.o: frs2.c
+	$(CC) -c frs2.c -o frs2.o $(CFLAGS)
+
+geraPopIni.o: geraPopIni.c
+	$(CC) -c geraPopIni.c -o geraPopIni.o $(CFLAGS)
+
+getD.o: getD.c
+	$(CC) -c getD.c -o getD.o $(CFLAGS)
+
+getData.o: getData.c
+	$(CC) -c getData.c -o getData.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+maxNum.o: maxNum.c
+	$(CC) -c maxNum.c -o maxNum.o $(CFLAGS)
+
+mutateFilhos.o: mutateFilhos.c
+	$(CC) -c mutateFilhos.c -o mutateFilhos.o $(CFLAGS)
+
+orderPop.o: orderPop.c
+	$(CC) -c orderPop.c -o orderPop.o $(CFLAGS)
+
+printMat.o: printMat.c
+	$(CC) -c printMat.c -o printMat.o $(CFLAGS)
+
+printVet.o: printVet.c
+	$(CC) -c printVet.c -o printVet.o $(CFLAGS)
+
+saveResults.o: saveResults.c
+	$(CC) -c saveResults.c -o saveResults.o $(CFLAGS)
+
+fre3.o: fre3.c
+	$(CC) -c fre3.c -o fre3.o $(CFLAGS)
+
+fre4.o: fre4.c
+	$(CC) -c fre4.c -o fre4.o $(CFLAGS)
+
+frs3.o: frs3.c
+	$(CC) -c frs3.c -o frs3.o $(CFLAGS)
+
+fre5.o: fre5.c
+	$(CC) -c fre5.c -o fre5.o $(CFLAGS)
+
+fre6.o: fre6.c
+	$(CC) -c fre6.c -o fre6.o $(CFLAGS)
