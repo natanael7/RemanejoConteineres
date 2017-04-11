@@ -40,5 +40,5 @@ Source: dentro das pastas AG_***/
 O projeto foi desenvolvido entre 10/2012 e 12/2014 na Universidade UNISINOS - São Leopoldo, RS. Através de uma bolsa de pesquisa CNPq - Modalidade Ensino Médio.
 
 *Autor: Natanael Josué Rabello*  
-*Orientador: Leonardo Dagnino Chiwiacowsky*
+*Orientador: Dr. Leonardo Dagnino Chiwiacowsky*
 
